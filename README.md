@@ -58,6 +58,8 @@ The minimal prerequisites, in terms of configuration files, are
 - [axis_mm_minas_a6bf.ini](config/axis_mm_minas_a6bf.ini)
   `.ini` file is the primary configuration passed to the command `linuxcnc` as a parameter to bring up LinuxCNC application. It is also where the settings relative to the three axes and joints are stored at. For instance, we define the limits of how far each axis can move and how fast each motor can rotate in this file. In a nutshell, it declares the final output of your 3-axial platform.
 
+After editing these files, they should be placed under `~/linuxcnc/config/ethercat` in the device where LinuxCNC is living on.
+
 > :bulb: **NOTE:**
 > ​The names of configuration files are free to be named as you like, but remember to ensure if the dependency between these configuration files is correct. The dependency comes in by one file references other files.
 
