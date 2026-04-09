@@ -73,6 +73,7 @@ The `doc/` folder contains reference guides that explain every variable in the c
 | [doc/hal-reference.md](doc/hal-reference.md) | Every command in the HAL file — module loading, servo-thread execution order, `setp` parameters, and the signal chains that wire the `cia402` component to the EtherCAT driver and the LinuxCNC motion controller. Includes a full `cia402` HAL pin reference table. |
 | [doc/ethercat-xml-reference.md](doc/ethercat-xml-reference.md) | Every XML element and attribute in the EtherCAT configuration — master timing, slave identification (`vid`/`pid`), distributed clock setup, boot-time SDO configuration, and the complete PDO mapping with CiA 402 object dictionary. |
 | [doc/scale-calculation-guide.md](doc/scale-calculation-guide.md) | Step-by-step derivation of `pos-scale`, `SCALE`/`INPUT_SCALE`, velocity/acceleration limits, and following-error limits from motor encoder resolution and mechanical drive ratio. Includes a worked example for the MINAS-A6BF. |
+| [doc/linuxcncrsh-quickstart.md](doc/linuxcncrsh-quickstart.md) | Step-by-step guide for connecting to LinuxCNC over the network via `telnet` and the `linuxcncrsh` text interface — session handshake, E-stop, homing, MDI commands, program execution, and a concise command reference. |
 
 ### Official LinuxCNC documentation
 
@@ -80,6 +81,7 @@ The `doc/linuxcnc/` folder contains the official reference PDFs downloaded from 
 
 - `doc/linuxcnc/LinuxCNC_Documentation.pdf` — full LinuxCNC user and reference manual.
 - `doc/linuxcnc/LinuxCNC_Developer.pdf` — HAL component development and internals.
+- `doc/linuxcnc/LinuxCNC_Manual_Pages.pdf` — man pages for all LinuxCNC commands, including the full `linuxcncrsh` command reference.
 
 ---
 
