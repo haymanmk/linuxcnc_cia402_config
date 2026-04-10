@@ -1,6 +1,6 @@
 # Configure LinuxCNC for CiA 402 Motors
 
-[LinuxCNC](https://linuxcnc.org/) does not support **CiA 402** protocol as it is. In order to make CiA 402 viable on LinuxCNC, we have to include a few third-party tools such as [linuxcnc-ethercat](https://github.com/linuxcnc-ethercat/linuxcnc-ethercat) and [hal-cia402](https://github.com/dbraun1981/hal-cia402). This document does not cover the scope of how to install these tools on LinuxCNC but mainly focus on how to set up those complex variables in the configuration files, LinuxCNC consumes them and adapts for your hardware setup.
+[LinuxCNC](https://linuxcnc.org/) does not support **CiA 402** protocol by default. In order to make CiA 402 viable on LinuxCNC, we have to include a few third-party tools such as [linuxcnc-ethercat](https://github.com/linuxcnc-ethercat/linuxcnc-ethercat) and [hal-cia402](https://github.com/dbraun1981/hal-cia402). This document does not cover the scope of how to install these tools on LinuxCNC but mainly focus on how to set up those complex variables in the configuration files, LinuxCNC consumes them and adapts for your hardware setup.
 
 ## Accessing the machine
 
